@@ -34,7 +34,7 @@ export default function register({navigation}){
                 <Button
                     title="Sign up"
                     onPress={() =>
-                    this.props.navigation.navigate('cheflogin')
+                    navigation.navigate('cheflogin')
                     }
                 />
             </View>
